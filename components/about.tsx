@@ -63,8 +63,8 @@ export default function About() {
               </motion.h3>
 
               <motion.p variants={itemVariants} className="text-zinc-300 mb-6">
-                I'm a passionate frontend developer with expertise in creating modern, responsive web applications. My
-                journey in web development started 5 years ago, and I've been constantly evolving my skills to stay at
+                I&apos;m a passionate frontend developer with expertise in creating modern, responsive web applications. My
+                journey in web development started 5 years ago, and I&apos;ve been constantly evolving my skills to stay at
                 the cutting edge of technology.
               </motion.p>
 

@@ -66,7 +66,7 @@ export default function Hero() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
           >
-            Hi, I'm <span className="text-emerald-400">Micheal Agulonye</span>
+            Hi, I&apos;m <span className="text-emerald-400">Micheal Agulonye</span>
           </motion.h1>
 
           <motion.div
@@ -75,7 +75,7 @@ export default function Hero() {
             animate={{ opacity: 1 }}
             transition={{ delay: 0.4, duration: 0.6 }}
           >
-            I'm a <span ref={typingRef} className="text-emerald-400"></span>
+            I&apos;m a <span ref={typingRef} className="text-emerald-400"></span>
             <span className="animate-blink">|</span>
           </motion.div>
 

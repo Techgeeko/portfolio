@@ -120,7 +120,7 @@ export default function Skills() {
             <h2 className="text-3xl md:text-4xl font-bold mb-4">My Skills</h2>
             <div className="w-20 h-1 bg-emerald-400 mx-auto mb-6"></div>
             <p className="text-zinc-300 max-w-2xl mx-auto">
-              Here's a breakdown of my technical skills and expertise across different categories.
+              Here&apos;s a breakdown of my technical skills and expertise across different categories.
             </p>
           </motion.div>
 
