@@ -125,7 +125,7 @@ export default function Skills() {
           </motion.div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {skillCategories.map((category, index) => (
+            {skillCategories.map((category) => (
               <motion.div key={category.title} variants={itemVariants} className="bg-zinc-900 rounded-lg p-6 shadow-lg">
                 <div className="flex items-center mb-6">
                   {category.icon}
