@@ -6,8 +6,8 @@ import { useRef, useState } from "react"
 import { motion } from "framer-motion"
 import { useInView } from "framer-motion"
 import { Button } from "@/components/ui/button"
-import { Input } from "@/components/ui/input"
-import { Textarea } from "@/components/ui/textarea"
+// import { Input } from "@/components/ui/input"
+// import { Textarea } from "@/components/ui/textarea"
 import { toast } from "sonner"
 import { Github, Linkedin, Twitter, Calendar, Mail, MapPin, Phone } from "lucide-react"
 
@@ -35,22 +35,22 @@ export default function Contact() {
     visible: { opacity: 1, y: 0, transition: { duration: 0.6 } },
   }
 
-  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
-    setFormState({
-      ...formState,
-      [e.target.name]: e.target.value,
-    })
-  }
+  // const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+  //   setFormState({
+  //     ...formState,
+  //     [e.target.name]: e.target.value,
+  //   })
+  // }
 
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault()
-    toast.success("Message sent!: Thanks for reaching out. I'll get back to you soon.")
-    setFormState({
-      name: "",
-      email: "",
-      message: "",
-    })
-  }
+  // const handleSubmit = (e: React.FormEvent) => {
+  //   e.preventDefault()
+  //   toast.success("Message sent!: Thanks for reaching out. I'll get back to you soon.")
+  //   setFormState({
+  //     name: "",
+  //     email: "",
+  //     message: "",
+  //   })
+  // }
 
   return (
     <section id="contact" className="py-20 bg-zinc-800">
