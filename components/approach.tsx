@@ -101,7 +101,7 @@ export default function Approach() {
             <motion.div variants={itemVariants} className="order-1 lg:order-2">
               <div className="relative rounded-lg overflow-hidden shadow-2xl">
                 <Image
-                  src="/placeholder.svg?height=600&width=800"
+                  src="/process.svg?height=600&width=800"
                   alt="Development Process"
                   width={800}
                   height={600}

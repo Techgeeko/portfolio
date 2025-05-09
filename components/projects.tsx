@@ -25,16 +25,16 @@ type Project = {
 const projects: Project[] = [
   {
     id: 1,
-    title: "AI-Powered E-commerce Dashboard",
-    description: "A comprehensive dashboard for e-commerce businesses with AI-driven insights and analytics.",
-    image: "/placeholder.svg?height=600&width=800",
-    tags: ["React", "Next.js", "TypeScript", "Tailwind CSS", "OpenAI API"],
+    title: "Go Invoice",
+    description: "Go invoice is a streamlined invoice management software designed for freelancers and small businesses. Built with Nextjs, ShadCN UI, and XATA Postgresql for database, it allows users to generate, store, and manage invoices effortlessly through a clean and responsive interface.",
+    image: "/goinvoice.png?height=600&width=800",
+    tags: ["React", "Next.js", "TypeScript", "Tailwind CSS", "Resend", "Clerk"],
     problem:
-      "E-commerce businesses struggle to make sense of their data and need actionable insights to improve sales.",
-    solution: "Created a dashboard that uses AI to analyze sales data and provide personalized recommendations.",
-    result: "Helped businesses increase their conversion rates by 25% and improve customer retention.",
+      "Freelancers and small business owners waste time on manual, error-prone invoicing and risk missed payments",
+    solution: "Created a software to help freelancers to Generate, Store, Edit and Filter invoices in one web app. Cloud hosted database for instant access.",
+    result: "Helped freelancers and small business owners save time, and reduce missed due dates to zero.",
     github: "https://github.com",
-    live: "https://example.com",
+    live: "https://goinvoice.ng",
   },
   {
     id: 2,
@@ -51,7 +51,7 @@ const projects: Project[] = [
   },
   {
     id: 3,
-    title: "AI Content Generator",
+    title: "Kreate Studio ",
     description: "A tool that helps content creators generate ideas and draft content using AI.",
     image: "/placeholder.svg?height=600&width=800",
     tags: ["React", "Next.js", "TypeScript", "GPT-4 API", "Tailwind CSS"],
@@ -65,7 +65,7 @@ const projects: Project[] = [
     id: 4,
     title: "Smart Home Control System",
     description: "A web application that allows users to control and automate their smart home devices.",
-    image: "/placeholder.svg?height=600&width=800",
+    image: "/public/projects/goinvoice.png?height=600&width=800",
     tags: ["React", "IoT", "WebSockets", "Node.js", "Express"],
     problem:
       "Users had to use multiple apps to control different smart home devices, creating a fragmented experience.",

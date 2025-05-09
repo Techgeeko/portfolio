@@ -42,7 +42,7 @@ export default function Navbar() {
     >
       <div className="container mx-auto px-4 flex justify-between items-center">
         <Link href="#hero" className="text-xl font-bold text-emerald-400">
-          Dev<span className="text-white">Portfolio</span>
+          Tech<span className="text-white">Geeko</span>
         </Link>
 
         {/* Desktop Navigation */}

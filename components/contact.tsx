@@ -70,40 +70,46 @@ export default function Contact() {
             </p>
           </motion.div>
 
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
+          <div className="w-full">
             <motion.div variants={itemVariants}>
-              <h3 className="text-2xl font-bold mb-6">Contact Information</h3>
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-8">
+                {/* Contact Information */}
+                <div className="bg-zinc-700/50 p-6 rounded-lg">
+                  <h4 className="text-xl font-semibold mb-4">Contact Information</h4>
+                  <div className="space-y-4">
+                    <div className="flex items-start">
+                      <MapPin className="text-emerald-400 mt-1 mr-4" size={20} />
+                      <div>
+                        <h5 className="font-medium">Location</h5>
+                        <p className="text-zinc-300">Owerri, NG</p>
+                      </div>
+                    </div>
 
-              <div className="space-y-6 mb-8">
-                <div className="flex items-start">
-                  <MapPin className="text-emerald-400 mt-1 mr-4" size={20} />
-                  <div>
-                    <h4 className="font-semibold">Location</h4>
-                    <p className="text-zinc-300">San Francisco, CA</p>
+                    <div className="flex items-start">
+                      <Mail className="text-emerald-400 mt-1 mr-4" size={20} />
+                      <div>
+                        <h5 className="font-medium">Email</h5>
+                        <p className="text-zinc-300">convertprowp@gmail.com</p>
+                      </div>
+                    </div>
+
+                    <div className="flex items-start">
+                      <Phone className="text-emerald-400 mt-1 mr-4" size={20} />
+                      <div>
+                        <h5 className="font-medium">WhatsApp</h5>
+                        <p className="text-zinc-300">+234 (812) 360-4476</p>
+                      </div>
+                    </div>
                   </div>
                 </div>
 
-                <div className="flex items-start">
-                  <Mail className="text-emerald-400 mt-1 mr-4" size={20} />
-                  <div>
-                    <h4 className="font-semibold">Email</h4>
-                    <p className="text-zinc-300">alex@example.com</p>
-                  </div>
-                </div>
-
-                <div className="flex items-start">
-                  <Phone className="text-emerald-400 mt-1 mr-4" size={20} />
-                  <div>
-                    <h4 className="font-semibold">Phone</h4>
-                    <p className="text-zinc-300">+1 (555) 123-4567</p>
-                  </div>
-                </div>
-              </div>
-
-              <div className="space-y-6">
-                <div>
-                  <h4 className="font-semibold mb-4">Schedule a Meeting</h4>
-                  <Button className="bg-emerald-500 hover:bg-emerald-600 text-zinc-900" asChild>
+                {/* Schedule a Meeting */}
+                <div className="bg-zinc-700/50 p-6 rounded-lg">
+                  <h4 className="text-xl font-semibold mb-4">Schedule a Meeting</h4>
+                  <p className="text-zinc-300 mb-4">
+                    Book a call to discuss your project or any questions you might have.
+                  </p>
+                  <Button className="bg-emerald-500 hover:bg-emerald-600 text-zinc-900 w-full" asChild>
                     <a href="https://cal.com" target="_blank" rel="noopener noreferrer">
                       <Calendar className="mr-2" size={16} />
                       Book a Call
@@ -111,30 +117,34 @@ export default function Contact() {
                   </Button>
                 </div>
 
-                <div>
-                  <h4 className="font-semibold mb-4">Connect with Me</h4>
-                  <div className="flex space-x-4">
+                {/* Connect with Me */}
+                <div className="bg-zinc-700/50 p-6 rounded-lg">
+                  <h4 className="text-xl font-semibold mb-4">Connect with Me</h4>
+                  <p className="text-zinc-300 mb-4">
+                    Follow me on social media to stay updated with my latest projects.
+                  </p>
+                  <div className="flex justify-center space-x-4">
                     <a
-                      href="https://github.com"
+                      href="https://github.com/techgeeko"
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="bg-zinc-700 hover:bg-zinc-600 p-3 rounded-full transition-colors"
+                      className="bg-zinc-600 hover:bg-zinc-500 p-3 rounded-full transition-colors"
                     >
                       <Github className="text-zinc-200" size={20} />
                     </a>
                     <a
-                      href="https://linkedin.com"
+                      href="https://ng.linkedin.com/in/micheal-agulonye-0b7240225"
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="bg-zinc-700 hover:bg-zinc-600 p-3 rounded-full transition-colors"
+                      className="bg-zinc-600 hover:bg-zinc-500 p-3 rounded-full transition-colors"
                     >
                       <Linkedin className="text-zinc-200" size={20} />
                     </a>
                     <a
-                      href="https://twitter.com"
+                      href="https://twitter.com/agulonye_m"
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="bg-zinc-700 hover:bg-zinc-600 p-3 rounded-full transition-colors"
+                      className="bg-zinc-600 hover:bg-zinc-500 p-3 rounded-full transition-colors"
                     >
                       <Twitter className="text-zinc-200" size={20} />
                     </a>
@@ -142,8 +152,8 @@ export default function Contact() {
                 </div>
               </div>
             </motion.div>
-
-            <motion.div variants={itemVariants}>
+            {/* Form */}
+            {/* <motion.div variants={itemVariants}>
               <h3 className="text-2xl font-bold mb-6">Send a Message</h3>
 
               <form onSubmit={handleSubmit} className="space-y-6">
@@ -197,7 +207,7 @@ export default function Contact() {
                   Send Message
                 </Button>
               </form>
-            </motion.div>
+            </motion.div> */}
           </div>
         </motion.div>
       </div>
