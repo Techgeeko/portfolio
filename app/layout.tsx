@@ -19,7 +19,32 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Agulonye Micheal - Portfolio",
   description: "Frontend developer leveraging AI to build intelligent, scalable, and high-performing digital infrastructures for modern brands. Expert in crafting seamless, responsive, and future-ready user interfaces.",
-};
+  icons: {
+    icon: "/favicon.ico",
+  },
+  openGraph: {
+    title: "Agulonye Micheal - Portfolio",
+    description: "Frontend developer leveraging AI to build intelligent, scalable, and high-performing digital infrastructures for modern brands. Expert in crafting seamless, responsive, and future-ready user interfaces.",
+    url: "https://agulonyemicheal.vercel.app",
+    siteName: "Agulonye Micheal - Portfolio",
+    images: [
+      {
+        url: "/og.png",
+        width: 1200,
+        height: 630,
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Agulonye Micheal - Portfolio",
+    description: "Frontend developer leveraging AI to build intelligent, scalable, and high-performing digital infrastructures for modern brands. Expert in crafting seamless, responsive, and future-ready user interfaces.",
+    images: '/og.png', // Local image
+    creator: '@agulonye_m',
+},
+}
 
 export default function RootLayout({
   children,
