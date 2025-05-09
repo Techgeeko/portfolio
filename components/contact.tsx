@@ -9,7 +9,7 @@ import { Button } from "@/components/ui/button"
 // import { Input } from "@/components/ui/input"
 // import { Textarea } from "@/components/ui/textarea"
 // import { toast } from "sonner"
-import { Github, Linkedin, Twitter, Calendar, Mail, MapPin, Phone } from "lucide-react"
+import { Github, Linkedin, XIcon, Calendar, Mail, MapPin, Phone } from "lucide-react"
 
 export default function Contact() {
   const ref = useRef(null)
@@ -146,7 +146,7 @@ export default function Contact() {
                       rel="noopener noreferrer"
                       className="bg-zinc-600 hover:bg-zinc-500 p-3 rounded-full transition-colors"
                     >
-                      <Twitter className="text-zinc-200" size={20} />
+                      <XIcon className="text-zinc-200" size={20} />
                     </a>
                   </div>
                 </div>
