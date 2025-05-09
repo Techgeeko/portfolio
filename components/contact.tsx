@@ -8,17 +8,17 @@ import { useInView } from "framer-motion"
 import { Button } from "@/components/ui/button"
 // import { Input } from "@/components/ui/input"
 // import { Textarea } from "@/components/ui/textarea"
-import { toast } from "sonner"
+// import { toast } from "sonner"
 import { Github, Linkedin, Twitter, Calendar, Mail, MapPin, Phone } from "lucide-react"
 
 export default function Contact() {
   const ref = useRef(null)
   const isInView = useInView(ref, { once: true, amount: 0.2 })
-  const [formState, setFormState] = useState({
-    name: "",
-    email: "",
-    message: "",
-  })
+  // const [formState, setFormState] = useState({
+  //   name: "",
+  //   email: "",
+  //   message: "",
+  // })
 
   const containerVariants = {
     hidden: { opacity: 0 },
