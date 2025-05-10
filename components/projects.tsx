@@ -38,16 +38,16 @@ const projects: Project[] = [
   },
   {
     id: 2,
-    title: "Real-time Collaboration Platform",
-    description: "A platform that enables teams to collaborate in real-time on documents and projects.",
-    image: "/placeholder.svg?height=600&width=800",
-    tags: ["React", "Socket.io", "Node.js", "Express", "MongoDB"],
+    title: "MedicTrack",
+    description: "MedicTrack is a web app for doctors and clinics to manage appointments, patient records and follow-ups.",
+    image: "/medictrack.png?height=600&width=800",
+    tags: ["Nextjs", "Socket.io", "Node.js", "Express", "XATA Postgresql"],
     problem:
-      "Remote teams needed a better way to collaborate on documents in real-time without switching between tools.",
-    solution: "Built a platform with real-time editing, commenting, and task management features.",
-    result: "Reduced meeting time by 30% and improved team productivity by streamlining collaboration.",
-    github: "https://github.com",
-    live: "https://example.com",
+      "Small to mid-sized clinics rely on manual appointment scheduling and paper-based patient records, leading to double bookings, missed follow-ups, overload.",
+    solution: "Built a platform for booking appointments, storing patient data, and automating reminders-all in one place.",
+    result: "Reduced patient appointment friction by 30% and improved clinic productivity by streamlining appointment booking and patient management.",
+    github: "https://github.com/Techgeeko/medictrack",
+    live: "https://medictrack.vercel.app",
   },
   {
     id: 3,
@@ -130,7 +130,7 @@ export default function Projects() {
                 alt={projects[activeProject].title}
                 width={800}
                 height={600}
-                className="w-full object-cover aspect-video"
+                className="w-full object-contain aspect-video"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-zinc-900 via-zinc-900/70 to-transparent opacity-90"></div>
               <div className="absolute bottom-0 left-0 right-0 p-6 md:p-8">

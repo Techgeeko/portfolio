@@ -52,7 +52,7 @@ export default function About() {
                 />
               </div>
               <div className="absolute -bottom-6 -right-6 bg-zinc-900 p-4 rounded-lg shadow-lg">
-                <p className="text-lg font-bold">5+ Years Experience</p>
+                <p className="text-lg font-bold">2+ Years Experience</p>
                 <p className="text-zinc-400">Frontend Development</p>
               </div>
             </motion.div>
@@ -63,15 +63,15 @@ export default function About() {
               </motion.h3>
 
               <motion.p variants={itemVariants} className="text-zinc-300 mb-6">
-                I&apos;m a passionate frontend developer with expertise in creating modern, responsive web applications. My
-                journey in web development started 5 years ago, and I&apos;ve been constantly evolving my skills to stay at
+                I&apos;m a passionate frontend developer with an unsatiable urge for creating modern, responsive web applications. My
+                journey in web development started 2 years ago, and I&apos;ve been constantly evolving my skills to stay at
                 the cutting edge of technology.
               </motion.p>
 
               <motion.p variants={itemVariants} className="text-zinc-300 mb-8">
                 What sets me apart is my integration of AI tools into my development workflow, allowing me to solve
                 complex problems efficiently and deliver high-quality solutions faster. I believe in writing clean,
-                maintainable code and creating intuitive user experiences.
+                maintainable code and creating intuitive user experiences, while also learning on the job.
               </motion.p>
 
               <motion.div variants={itemVariants} className="grid grid-cols-2 gap-4">

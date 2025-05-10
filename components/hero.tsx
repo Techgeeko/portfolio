@@ -11,7 +11,7 @@ export default function Hero() {
   useEffect(() => {
     if (!typingRef.current) return
 
-    const phrases = ["Frontend Developer", "React Specialist", "Next.js Expert", "AI-Driven Builder"]
+    const phrases = ["Frontend Developer", "React Maverick", "Next.js Nomad", "AI-Driven Builder"]
 
     let phraseIndex = 0
     let charIndex = 0
